@@ -15,14 +15,14 @@
 
   <body data-spy="scroll" data-target=".navbar" data-offset="70">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Artist Gallery test</a>
+      <a class="navbar-brand" href="#home">Artist Gallery test</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
 		  <li class="nav-item">
-			<a class="nav-link" href="./index.html">@Home</a>
+			<a class="nav-link" href="#home">@home</a>
 		  </li>
           <li class="nav-item">
             <a class="nav-link" href="#About">@About</a>
@@ -43,16 +43,18 @@
           </li>
         </ul>
       </div>
-	</nav>
+  	</nav>
 	
 
     <div class="container">
-	  <h2 id="home">@Home</h2>
-	  <p>HOME</p>
-	  <p>HOME</p>
-	  <p>HOME</p>
-	  <p>HOME</p>
-	  <p>HOME</p>
+    <h2 id="home">@home</h2>
+    <div class="bd-example bd-example-images">
+      <div class="text-center">
+        <img data-src="holder.js/800x550" class="rounded mx-auto img-thumbnail"
+               alt="A generic square placeholder image with rounded corners">
+      </div>
+    </div>
+
 	  <hr id="About">
     <br>
     <br>
@@ -90,7 +92,7 @@
     <div class="row">
       <div class="col-4">
         <div class="list-group" id="list-tab" role="tablist">
-          <a class="list-group-item list-group-item-action active" id="list1-home-list" data-toggle="tab" href="#list1-home" role="tab" aria-controls="list1-home">Home</a>
+          <a class="list-group-item list-group-item-action active" id="list1-home-list" data-toggle="tab" href="#list1-home" role="tab" aria-controls="list1-home">home</a>
           <a class="list-group-item list-group-item-action" id="list1-profile-list" data-toggle="tab" href="#list1-profile" role="tab" aria-controls="list1-profile">Profile</a>
           <a class="list-group-item list-group-item-action" id="list1-messages-list" data-toggle="tab" href="#list1-messages" role="tab" aria-controls="list1-messages">Messages</a>
           <a class="list-group-item list-group-item-action" id="list1-settings-list" data-toggle="tab" href="#list1-settings" role="tab" aria-controls="list1-settings">Settings</a>
@@ -101,7 +103,7 @@
           <div class="tab-pane fade show active" id="list1-home" role="tabpanel" aria-labelledby="list1-home-list">
               <div class="bd-example bd-example-images">
                   <div class="text-center">
-                    <img src ="work/01_Home_I.jpg" width="500px" height="350px" data-src="holder.js/500x350" class="rounded mx-auto img-thumbnail"
+                    <img src ="work/01_home_I.jpg" width="500px" height="350px" data-src="holder.js/500x350" class="rounded mx-auto img-thumbnail"
                            alt="A generic square placeholder image with rounded corners">
                   </div>
               </div>
@@ -160,7 +162,7 @@
             <div class="tab-pane fade show active" id="list2-home" role="tabpanel" aria-labelledby="list2-home-list">
               <div class="bd-example bd-example-images">
                   <div class="text-center">
-                    <img src="work/02_Home_II.jpg" width="300px" data-src="holder.js/200x200" class="rounded mx-auto img-thumbnail"
+                    <img src="work/02_home_II.jpg" width="300px" data-src="holder.js/200x200" class="rounded mx-auto img-thumbnail"
                            alt="A generic square placeholder image with rounded corners">
                   </div>
               </div>
@@ -219,19 +221,30 @@
       <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
       <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
       <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+      <div class="bd-example tooltip-demo">
+          <div class="bd-example-tooltips">
+              <button type="button" class="btn btn-primary" title="Up to top"><a href="#home">Up to top</a></button>
+          </div>
+      </div>
+      <!--                  -->
+      <!-- Work Part End    -->
+      <!--                  -->
+
 
       <!--                  -->
-      <!-- Work Part End  -->
+      <!-- footer start     -->
       <!--                  -->
-
-
-
       <hr id="contact">
-      <br>
-	  <footer>
-			<h2 ></h2>
-			<p>Copyright &copy; 2018 김동원 All Right Reserved.</p>
-		</footer>
+      <footer>
+        <h2 ></h2>
+        <p>Copyright &copy; 2018 김동원 All Right Reserved.</p>
+        <br>
+    </footer>
+
+      <!--                  -->
+      <!-- footer end       -->
+      <!--                  -->
+    
     </div>
 
     <script src="./js/holder.min.js"></script>
@@ -242,5 +255,8 @@
     <script src="./dist/collapse.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./dist/tab.js"></script>
+
+
+
   </body>
 </html>
